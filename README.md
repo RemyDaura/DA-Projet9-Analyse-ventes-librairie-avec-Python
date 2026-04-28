@@ -1,34 +1,48 @@
-Projet 9 : Analyse des ventes d'une librairie en ligne avec Python
-Contexte
-Je suis intervenu en tant que Data Analyst pour Lapage, une grande librairie historique qui vient de lancer sa boutique en ligne. Après deux ans d'activité sur le web, l'entreprise souhaitait faire le point sur ses ventes et comprendre finement le comportement de ses clients pour orienter sa future stratégie marketing.
-Mon objectif : Nettoyer les bases de données issues de la plateforme, réaliser une analyse exploratoire des ventes (CA, Tops/Flops), et surtout mener une étude statistique approfondie pour identifier les liens entre le profil démographique des clients et leurs habitudes d'achat.
+Analyse des Ventes d'une Librairie en Ligne (Lapage)
+Contexte du Projet
+Ce projet a été réalisé dans le cadre de mon parcours de Data Analyst. L'objectif était d'exploiter les données de ventes de "Lapage", une grande librairie historique qui vient d'ouvrir sa boutique en ligne, afin d'orienter sa future stratégie marketing.
 
-Missions réalisées
-Préparation et Nettoyage des données (Data Cleaning) : Fusion des tables (clients, produits, transactions), traitement des valeurs manquantes, gestion des outliers (données aberrantes) et exclusion des données de "test" (transactions factices) pour garantir la fiabilité de l'analyse.
+Mission : Nettoyer les bases de données brutes, réaliser une analyse exploratoire des ventes, et mener une étude statistique rigoureuse pour comprendre le lien entre le profil démographique des clients et leurs habitudes d'achat.
 
-Analyse Exploratoire des Données (EDA) : * Suivi des indicateurs clés de performance (KPIs) : Évolution du Chiffre d'Affaires dans le temps et analyse de la tendance via une moyenne mobile.
+Stack Technique
+Langage principal : Python (via Jupyter Notebook).
 
-Analyse de l'offre : Identification des Tops et Flops des ventes, et répartition du CA par catégories de livres.
+Manipulation des données : Pandas et NumPy (Data Cleaning, agrégations, jointures).
 
-Profilage client : Création de variables métiers telles que l'âge des clients au moment de l'achat, la fréquence d'achat et le panier moyen.
+Data Visualization : Matplotlib et Seaborn.
 
-Analyses Statistiques et Bivariées : Utilisation de tests statistiques pour vérifier la corrélation entre différentes variables :
+Mathématiques & Statistiques : SciPy et Statsmodels (Inférence statistique et tests d'hypothèses).
 
-Test du Chi-2 : Pour analyser le lien entre le genre du client et les catégories de livres achetées.
+Structure de l'Analyse
+Le projet respecte une progression analytique logique, divisée en plusieurs étapes clés :
 
-ANOVA (Analyse de la variance) : Pour évaluer l'impact de l'âge sur le montant total des achats.
+1_Data_Preparation : La couche de nettoyage.
 
-Corrélation de Pearson / Spearman : Pour mesurer la relation entre l'âge, la fréquence d'achat et la taille du panier moyen.
+Standardisation des formats, traitement des valeurs manquantes et des doublons.
 
-Compétences & Outils
-Langage : Python
+Détection et gestion des outliers (données aberrantes).
 
-Librairies : * Pandas (Manipulation et nettoyage des DataFrames)
+Exclusion des données de test (utilisateurs factices de la plateforme).
 
-Matplotlib & Seaborn (Data Visualization)
+2_EDA_Analyse_Exploratoire : La couche métier et visualisation.
 
-Scipy (Calculs et tests statistiques)
+Analyse des indicateurs de performance (CA global, évolution temporelle avec moyenne mobile).
 
-Techniques : Statistiques descriptives, Tests statistiques (Chi-2, ANOVA, Pearson), Analyse bivariée, Nettoyage de données complexes.
+Analyse de l'offre (Tops/Flops des ventes, répartition par catégories).
+
+Création de variables métiers (calcul de l'âge des clients, taille du panier moyen, fréquence d'achat).
+
+3_Tests_Statistiques : La couche d'inférence.
+
+Validation des hypothèses comportementales via des méthodes mathématiques.
+
+Tests Statistiques & Résultats
+La robustesse des analyses est garantie par l'utilisation de tests statistiques adaptés à chaque type de variable. Les tests suivants ont été exécutés et interprétés :
+
+Test du Chi-2 : Pour analyser la corrélation entre deux variables qualitatives (ex: Le genre du client et la catégorie de livre achetée).
+
+ANOVA (Analyse de la variance) : Pour évaluer l'impact d'une variable qualitative sur une variable quantitative (ex: L'impact de la catégorie d'âge sur le montant des achats).
+
+Corrélation de Pearson / Spearman : Pour mesurer la relation entre deux variables quantitatives (ex: Le lien entre l'âge et la fréquence d'achat, ou l'âge et le panier moyen).
 
 Ce projet fait partie de la formation Data Analyst d'OpenClassrooms.
