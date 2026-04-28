@@ -66,7 +66,8 @@ L'objectif : comprendre finement le comportement des clients pour orienter la st
  ┣ 📂 reports/   # Présentation avec graphiques
  ┗ 📄 README.md
 ```
- 
+<img src="images/Capture d'écran 2026-04-03 111804.png" width="500px"><img src="images/Capture d'écran 2026-04-03 112208.png" width="500px">
+<img src="images/Capture d'écran 2026-04-03 112731.png" width="450px"><img src="images/Capture d'écran 2026-04-03 113013.png" width="450px">
 ---
  
 *Projet réalisé dans le cadre de la formation [Data Analyst – OpenClassrooms](https://openclassrooms.com/fr/paths/324-data-analyst)*
