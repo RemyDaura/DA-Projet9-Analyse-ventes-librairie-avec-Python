@@ -60,7 +60,7 @@ L'objectif : comprendre finement le comportement des clients pour orienter la st
 ##  Structure du projet
  
 ```
- projet-9-lapage/
+ DA-Projet9-Analyse-ventes-librairie-avec-Python/
  ┣ 📓 notebook   # Notebook principal
  ┣ 📂 data-raw/  # Données sources
  ┣ 📂 reports/   # Présentation avec graphiques
